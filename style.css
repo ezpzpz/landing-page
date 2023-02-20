@@ -69,7 +69,7 @@ a {
 
 .intro-text h1 {
     font-weight: 700;
-    font-size: 42px;
+    font-size: 48px;
 }
 .intro-text {
     flex-wrap: wrap;
@@ -101,4 +101,44 @@ a {
 
 .examples {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.example-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px;
+}
+
+.example-photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photos {
+    flex: 0 1 225px;
+    text-align: center;
+}
+
+.img-examples {
+    border: 0px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #1F2937;
+    width: auto;
+    height: 225px;
+}
+
+
+.photos p {
+    color: #1F2937;
+    font-size: 16px;
+    font-style: italic;
 }
