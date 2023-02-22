@@ -18,6 +18,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.signup-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 64px;
+    border-radius: 25px;
+}
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -89,7 +98,7 @@ a {
     height: 40px;
     width: 120px;
     border-radius: 7px;
-    border: 0px;
+    border: 3px;
 }
 
 .main-image, .sunflower {
@@ -175,4 +184,28 @@ a {
     text-align: right;
     font-size: 24px;
     font-weight: 900;
+}
+
+.signup {
+    padding: 100px;
+}
+
+.signup-box-right .sign-up-button {
+    border-style: solid;  
+}
+
+.signup-box-left {
+    color: white;
+}
+
+.signup-box-left h2,
+.signup-box-left p {
+    margin: 0px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
 }
